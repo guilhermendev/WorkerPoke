@@ -3,7 +3,7 @@ using MySql.Data.MySqlClient;
 
 public class PokemonRepository
 {
-    private readonly string _connectionString = "Server=localhost;Database=PokemonDB;Uid=root;Pwd=(11)959755565;";
+    private readonly string _connectionString = "Server=localhost;Database=PokemonDB;Uid=root;Pwd=1234";
 
     public async Task Insert(Pokemon pokemon)
     {
@@ -13,5 +13,16 @@ public class PokemonRepository
                        VALUES (@PokemonId, @Nome, @Url)";
 
         await connection.ExecuteAsync(sql, pokemon);
+    }
+
+    public async Task<int> BuscarMaiorIdPokemon()
+    {
+        using var connection = new MySqlConnection(_connectionString);
+
+        string sql = "SELECT MAX(PokemonId) FROM Pokemon";
+
+        var result = await connection.ExecuteScalarAsync<int?>(sql);
+
+        return result ?? 0;
     }
 }

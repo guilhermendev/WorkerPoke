@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|c:\\users\\guilh\\source\\repos\\guilhermendev\\workerpoke\\workerpoke\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|solutionrelative:workerpoke\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|c:\\users\\guilh\\source\\repos\\guilhermendev\\workerpoke\\workerpoke\\facade\\pokemonfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|solutionrelative:workerpoke\\facade\\pokemonfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|c:\\users\\guilh\\source\\repos\\guilhermendev\\workerpoke\\workerpoke\\service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|solutionrelative:workerpoke\\service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|c:\\users\\guilh\\source\\repos\\guilhermendev\\workerpoke\\workerpoke\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189DADA7-74BC-D96D-4202-BA479BC2632E}|WorkerPoke\\WorkerPoke.csproj|solutionrelative:workerpoke\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Program.cs",
+              "RelativeDocumentMoniker": "WorkerPoke\\Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Program.cs",
+              "RelativeToolTip": "WorkerPoke\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:59:40.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokemonFacade.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Facade\\PokemonFacade.cs",
+              "RelativeDocumentMoniker": "WorkerPoke\\Facade\\PokemonFacade.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Facade\\PokemonFacade.cs",
+              "RelativeToolTip": "WorkerPoke\\Facade\\PokemonFacade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:31:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Service\\PokemonService.cs",
+              "RelativeDocumentMoniker": "WorkerPoke\\Service\\PokemonService.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Service\\PokemonService.cs",
+              "RelativeToolTip": "WorkerPoke\\Service\\PokemonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:31:34.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Repository\\PokemonRepository.cs",
+              "RelativeDocumentMoniker": "WorkerPoke\\Repository\\PokemonRepository.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\guilhermendev\\WorkerPoke\\WorkerPoke\\Repository\\PokemonRepository.cs",
+              "RelativeToolTip": "WorkerPoke\\Repository\\PokemonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:21:15.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

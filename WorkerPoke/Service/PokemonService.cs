@@ -12,11 +12,24 @@
 
     public async Task RunJob()
     {
-        var pokemons = await _facade.GetPokemons();
-
-        foreach (var pokemon in pokemons)
+        while (true)
         {
-            await _repository.Insert(pokemon);
+            var maiorId = await _repository.BuscarMaiorIdPokemon();
+
+            var pokemons = await _facade.GetPokemons(maiorId);
+
+            if (pokemons.Count == 0)
+            {
+                Console.WriteLine("Todos os pokémons já foram cadastrados!");
+                break;
+            }
+
+            foreach (var pokemon in pokemons)
+            {
+                await _repository.Insert(pokemon);
+            }
+
+            Console.WriteLine($"Inseridos {pokemons.Count} pokémons...");
         }
 
         Console.WriteLine("Job finalizado");
