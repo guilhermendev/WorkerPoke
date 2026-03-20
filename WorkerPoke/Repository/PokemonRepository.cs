@@ -1,5 +1,8 @@
 ﻿using Dapper;
 using MySql.Data.MySqlClient;
+using WorkerPoke.Models;
+
+namespace WorkerPoke.Repository;
 
 public class PokemonRepository
 {

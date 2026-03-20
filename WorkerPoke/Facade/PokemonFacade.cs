@@ -1,4 +1,7 @@
 ﻿using System.Text.Json;
+using WorkerPoke.Models;
+
+namespace WorkerPoke.Facade;
 
 public class PokemonFacade
 {

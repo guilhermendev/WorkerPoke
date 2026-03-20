@@ -1,4 +1,9 @@
-﻿public class PokemonService
+﻿using WorkerPoke.Facade;
+using WorkerPoke.Repository;
+
+namespace WorkerPoke.Service;
+
+public class PokemonService
 {
     private readonly PokemonRepository _repository;
     private readonly PokemonFacade _facade;

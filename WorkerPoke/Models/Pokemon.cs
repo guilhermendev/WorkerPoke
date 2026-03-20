@@ -1,4 +1,6 @@
-﻿public class Pokemon()
+﻿namespace WorkerPoke.Models;
+
+public class Pokemon()
 {
     public int PokemonId { get; set; }
     public string Nome { get; set; }
