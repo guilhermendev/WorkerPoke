@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkerPoke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47531222915f9340637c1ffe5d5bea70dbcd0fac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b79d4f76d4b44c31cc27f608cd336355a0c115c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkerPoke")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkerPoke")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

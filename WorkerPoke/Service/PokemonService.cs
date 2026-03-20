@@ -1,6 +1,5 @@
 ﻿public class PokemonService
 {
-    
     private readonly PokemonRepository _repository;
     private readonly PokemonFacade _facade;
 
@@ -12,26 +11,23 @@
 
     public async Task RunJob()
     {
-        while (true)
+        var offset = await _repository.BuscarQuantidadePokemon();
+
+        Console.WriteLine($"Maior ID encontrado: {offset}");
+
+        var pokemons = await _facade.GetPokemons(offset);
+
+        if (pokemons.Count == 0)
         {
-            var maiorId = await _repository.BuscarMaiorIdPokemon();
-
-            var pokemons = await _facade.GetPokemons(maiorId);
-
-            if (pokemons.Count == 0)
-            {
-                Console.WriteLine("Todos os pokémons já foram cadastrados!");
-                break;
-            }
-
-            foreach (var pokemon in pokemons)
-            {
-                await _repository.Insert(pokemon);
-            }
-
-            Console.WriteLine($"Inseridos {pokemons.Count} pokémons...");
+            Console.WriteLine("Todos os pokémons já foram cadastrados!");
+            return;
         }
 
-        Console.WriteLine("Job finalizado");
+        foreach (var pokemon in pokemons)
+        {
+            await _repository.Insert(pokemon);
+        }
+
+        Console.WriteLine($"Inseridos {pokemons.Count} pokémons. Maior ID agora: {offset + pokemons.Count}");
     }
-}
+} 

@@ -15,11 +15,11 @@ public class PokemonRepository
         await connection.ExecuteAsync(sql, pokemon);
     }
 
-    public async Task<int> BuscarMaiorIdPokemon()
+    public async Task<int> BuscarQuantidadePokemon()
     {
         using var connection = new MySqlConnection(_connectionString);
 
-        string sql = "SELECT MAX(PokemonId) FROM Pokemon";
+        string sql = "SELECT COUNT(*) FROM Pokemon";
 
         var result = await connection.ExecuteScalarAsync<int?>(sql);
 

@@ -2,19 +2,12 @@
 
 public class PokemonFacade
 {
-    public async Task<List<Pokemon>> GetPokemons(int maiorId)
+    public async Task<List<Pokemon>> GetPokemons(int offset)
     {
         var client = new HttpClient();
 
-        // 🔥 recebe o maiorId do Service
-        var numeroInicial = maiorId + 1;
-        var numeroFinal = numeroInicial + 150;
-
-        // 🔥 converte pra limit
-        var quantidade = numeroFinal - numeroInicial;
-
         var response = await client.GetStringAsync(
-            $"https://pokeapi.co/api/v2/pokemon?offset={numeroInicial}&limit={quantidade}"
+            $"https://pokeapi.co/api/v2/pokemon?offset={offset}&limit=150"
         );
 
         var data = JsonSerializer.Deserialize<PokeApiResponse>(response);
